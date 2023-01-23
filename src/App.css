@@ -1,27 +1,26 @@
 .App {
   text-align: center;
-  all:none;
+ 
 }
-*{
-  background-color:#fffafa;
+* {
+  background-color: #fffafa;
 }
-.menu{
+.menu {
   color: rgb(70, 70, 70);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0px 10px;
 }
-.menu-right{
+.menu-right {
   display: flex;
   align-items: center;
 }
-.menu ul{
- list-style: none;
- display: flex;
- align-items: center;
- justify-content: center;
-
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu ul li {
@@ -29,15 +28,18 @@
   margin: 2px 20px;
   cursor: pointer;
 }
-.mobile-icon{
+.mobile-icon {
   color: #a3749b;
   display: none;
 }
 
-
 @media(200px <= width <=450px){
+
+  .menu-right{
+    background-color: #bebebe;
+  }
   .menu ul{
-    display: none;
+    display: block;
   }
   .mobile-icon{
     display: block;
@@ -46,5 +48,3 @@
     
   }
 }
-
-

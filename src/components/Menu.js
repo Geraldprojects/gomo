@@ -3,7 +3,7 @@ import { UilBars } from '@iconscout/react-unicons'
 const Menu = () => {
   return (
     <div className="menu">
-      <div className="logo">logo</div>
+      <div className="logo">Gomo</div>
       <div className="menu-right">
         <ul>
           <li>About</li>
